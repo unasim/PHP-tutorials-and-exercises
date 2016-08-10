@@ -43,3 +43,31 @@ for ($i = 1; $i<=25; $i++){
 echo 'Zbir parnih brojeva je: ' . $sumOfEvenNumbers . '<br />';
 echo 'Zbir neparnih brojeva je: ' . $sumOfOddNumbers . '<br />';
 
+echo '<hr />';
+
+
+$i=1;
+$sumOfEven = 0;
+$sumOfOdd = 0;
+
+do {
+
+	echo $i; 
+
+	if ($i%2==0){
+		echo ' je paran broj!' .'<br />';
+		$sumOfEven = $sumOfEven + $i;
+	}
+	else {
+		echo ' je neparan broj!' .'<br />';
+		$sumOfOdd = $sumOfOdd + $i;
+	}
+
+	$i++;
+
+
+}while($i<=25);
+
+echo 'Zbir svih parnih brojeva je: ' . $sumOfEven . '. Sa do-while petljom' . '<br />';
+echo 'Zbir svih neparnih brojeva je: ' . $sumOfOdd . '. Sa do-while petljom';
+ 
