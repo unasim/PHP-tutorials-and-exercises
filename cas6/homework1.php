@@ -36,8 +36,8 @@ while ($i>=1) {
 		echo $i . ' je deljiv sa 6!!!';
 	}
 	else 
-	echo $i;
-	$i--;
-	echo '<br />';
+		echo $i;
+		$i--;
+		echo '<br />';
 	
 }
